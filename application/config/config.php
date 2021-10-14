@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = $root;
-$config['base_url'] = 'http://localhost/crud/';
+$config['base_url'] = 'localhost/crud';
 
 /*
 |--------------------------------------------------------------------------
