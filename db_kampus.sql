@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 06 Okt 2021 pada 07.07
+-- Waktu pembuatan: 14 Okt 2021 pada 07.55
 -- Versi server: 10.4.21-MariaDB
 -- Versi PHP: 7.3.30
 
@@ -32,7 +32,8 @@ CREATE TABLE `mahasiswa` (
   `nim` varchar(8) CHARACTER SET latin1 NOT NULL,
   `nama` varchar(50) CHARACTER SET latin1 NOT NULL,
   `alamat` text CHARACTER SET latin1 NOT NULL,
-  `pekerjaan` varchar(50) CHARACTER SET latin1 NOT NULL
+  `pekerjaan` varchar(50) CHARACTER SET latin1 NOT NULL,
+  `foto` text CHARACTER SET latin1 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
